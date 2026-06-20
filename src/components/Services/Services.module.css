@@ -1,0 +1,18 @@
+.section {
+  padding-block: var(--space-20);
+  background-color: var(--color-bg);
+}
+
+.intro {
+  max-width: 600px;
+  margin-bottom: var(--space-10);
+  font-size: var(--text-base);
+  color: var(--color-text-secondary);
+  line-height: var(--leading-relaxed);
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
