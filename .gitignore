@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# public
+BeGrowOne.mp4
+Palomin_pote_pattern.mp4

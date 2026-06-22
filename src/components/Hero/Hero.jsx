@@ -23,25 +23,10 @@ export default function Hero() {
       aria-labelledby="hero-heading"
     >
       <h1 id="hero-heading" className={styles.tagline}>
-        Damos vida a marcas con<br />
-        historias y experiencias a través<br />
+        Damos vida a marcas con historias y experiencias a través
         del diseño y la tecnología.
       </h1>
-      <div className={styles.meta}>
-        <span className={styles.year}>Studio — Est. 2024</span>
-        <span className={styles.scrollHint} aria-hidden="true">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth={1.5}
-          >
-            <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-          </svg>
-          Scroll
-        </span>
-      </div>
+
     </section>
   );
 }

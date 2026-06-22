@@ -12,13 +12,17 @@
   box-shadow: 0 8px 40px rgba(0, 0, 0, 0.12);
 }
 
-/* Image */
-.image {
+/* Video */
+.video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   transition: transform var(--transition-slow);
 }
 
-.card:hover .image {
+.card:hover .video {
   transform: scale(1.03);
 }
 

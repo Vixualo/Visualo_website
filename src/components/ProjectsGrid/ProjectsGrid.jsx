@@ -9,7 +9,6 @@ import styles from './ProjectsGrid.module.css';
 export default function ProjectsGrid() {
   const containerRef = useScrollRevealMultiple({ selector: '.reveal' });
 
-  const projectCount = String(projects.length).padStart(2, '0');
 
   return (
     <section
@@ -20,8 +19,8 @@ export default function ProjectsGrid() {
     >
       <SectionHeader
         id="trabajos-heading"
-        title="Trabajos Seleccionados"
-        count={`${projectCount} proyectos`}
+        title=""
+        hasBorder={false}
       />
 
       <div className={styles.grid}>

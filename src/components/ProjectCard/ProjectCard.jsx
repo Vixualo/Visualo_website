@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import styles from './ProjectCard.module.css';
 
 const SIZE_CLASSES = {
@@ -8,7 +7,7 @@ const SIZE_CLASSES = {
   wide: styles.wide,
 };
 
-export default function ProjectCard({ title, category, image, alt, size = 'default', delay = 0 }) {
+export default function ProjectCard({ title, category, video, alt, size = 'default', delay = 0 }) {
   const sizeClass = SIZE_CLASSES[size] || SIZE_CLASSES.default;
   const delayClass = delay > 0 ? `reveal--delay-${delay}` : '';
 
@@ -19,18 +18,15 @@ export default function ProjectCard({ title, category, image, alt, size = 'defau
       role="button"
       aria-label={`Ver proyecto: ${title}`}
     >
-      {image ? (
-        <Image
-          src={image}
-          alt={alt}
-          fill
-          sizes={
-            size === 'hero' || size === 'wide'
-              ? '(max-width: 640px) 100vw, 1200px'
-              : '(max-width: 640px) 100vw, 600px'
-          }
-          className={styles.image}
-          priority={size === 'hero'}
+      {video ? (
+        <video
+          src={video}
+          autoPlay
+          loop
+          muted
+          playsInline
+          aria-label={alt}
+          className={styles.video}
         />
       ) : (
         <div className={styles.placeholder}>
