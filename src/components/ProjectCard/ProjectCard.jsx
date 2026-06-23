@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './ProjectCard.module.css';
 
 const SIZE_CLASSES = {
@@ -7,15 +8,14 @@ const SIZE_CLASSES = {
   wide: styles.wide,
 };
 
-export default function ProjectCard({ title, category, video, alt, size = 'default', delay = 0 }) {
+export default function ProjectCard({ id, title, category, video, alt, size = 'default', delay = 0 }) {
   const sizeClass = SIZE_CLASSES[size] || SIZE_CLASSES.default;
   const delayClass = delay > 0 ? `reveal--delay-${delay}` : '';
 
   return (
-    <article
+    <Link
+      href={`/trabajos/${id}`}
       className={`${styles.card} ${sizeClass} reveal ${delayClass}`}
-      tabIndex={0}
-      role="button"
       aria-label={`Ver proyecto: ${title}`}
     >
       {video ? (
@@ -50,6 +50,6 @@ export default function ProjectCard({ title, category, video, alt, size = 'defau
         <span className={styles.category}>{category}</span>
         <h3 className={styles.title}>{title}</h3>
       </div>
-    </article>
+    </Link>
   );
 }

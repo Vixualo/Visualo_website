@@ -1,0 +1,131 @@
+.container {
+  min-height: 100vh;
+  padding-bottom: var(--space-20);
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  min-height: 400px;
+  max-height: 800px;
+  display: flex;
+  align-items: flex-end;
+  padding: var(--space-10) var(--space-6);
+}
+
+.videoBackground {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.2) 60%);
+  z-index: 1;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.category {
+  font-family: var(--font-mono), 'DM Mono', monospace;
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wide);
+  margin-bottom: var(--space-2);
+  display: block;
+}
+
+.title {
+  font-size: var(--text-4xl);
+  font-weight: 500;
+  color: #FFFFFF;
+  letter-spacing: var(--tracking-tight);
+  line-height: var(--leading-tight);
+}
+
+.mainContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-16) var(--space-6);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-12);
+}
+
+@media (min-width: 768px) {
+  .mainContent {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+.descriptionSection h2 {
+  font-size: var(--text-2xl);
+  font-weight: 500;
+  margin-bottom: var(--space-6);
+  color: var(--color-text-primary);
+}
+
+.description {
+  font-size: var(--text-lg);
+  color: var(--color-text-secondary);
+  line-height: var(--leading-relaxed);
+}
+
+.metaSection {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+}
+
+.metaItem h3 {
+  font-size: var(--text-xs);
+  font-family: var(--font-mono), 'DM Mono', monospace;
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wide);
+  margin-bottom: var(--space-2);
+}
+
+.metaItem p, .metaItem ul {
+  font-size: var(--text-base);
+  color: var(--color-text-primary);
+}
+
+.metaItem ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.backButton {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  font-family: var(--font-mono), 'DM Mono', monospace;
+  font-size: var(--text-sm);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wide);
+  margin-bottom: var(--space-8);
+  transition: color var(--transition-base);
+}
+
+.backButton:hover {
+  color: var(--color-text-primary);
+}
