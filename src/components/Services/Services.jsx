@@ -19,12 +19,11 @@ export default function Services() {
       <SectionHeader
         id="servicios-heading"
         title="Servicios"
-        count={`${String(services.length).padStart(2, '0')} disciplinas`}
+        count={`${String(services.length).padStart(2)}`}
       />
 
       <p className={`${styles.intro} reveal reveal--delay-1`}>
-        Construimos desde el concepto hasta la ejecución. Cada proyecto es una
-        colaboración — nunca una producción en línea.
+
       </p>
 
       <div className={styles.tags}>
