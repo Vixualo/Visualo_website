@@ -27,6 +27,16 @@ export default function Hero() {
         del diseño y la tecnología.
       </h1>
 
+      <div className={styles.videoWrapper}>
+        <video
+          className={styles.video}
+          src="/images/Reel_principal.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+        />
+      </div>
     </section>
   );
 }
