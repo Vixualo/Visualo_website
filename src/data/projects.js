@@ -8,7 +8,7 @@ export const projects = [
     id: 'rebrand-colectiva',
     title: 'Rebrand Colectiva',
     category: 'Branding · Identidad',
-    video: '/images/BeGrowOne.mp4',
+    video: '/images/Reel_principal.mp4',
     alt: 'Rebrand completo para Colectiva — identidad visual editorial',
     size: 'hero',
     description: 'Un rediseño integral de la identidad visual de Colectiva, enfocado en transmitir modernidad y sofisticación editorial. El proyecto incluyó la creación de un nuevo sistema de diseño, tipografía personalizada y una paleta de colores vibrante pero elegante que destaca en el mundo digital y físico.',

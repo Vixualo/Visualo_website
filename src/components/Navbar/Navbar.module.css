@@ -13,18 +13,22 @@
 }
 
 .scrolled {
-  background-color: rgba(255, 255, 255, 0.88);
+  background-color: rgba(0, 0, 0, 0.88);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: var(--border-default);
 }
 
 @media (min-width: 640px) {
-  .navbar { padding-inline: var(--page-padding-tablet); }
+  .navbar {
+    padding-inline: var(--page-padding-tablet);
+  }
 }
 
 @media (min-width: 1024px) {
-  .navbar { padding-inline: var(--page-padding-desktop); }
+  .navbar {
+    padding-inline: var(--page-padding-desktop);
+  }
 }
 
 /* Logo */
@@ -50,7 +54,9 @@
 }
 
 @media (min-width: 1024px) {
-  .links { display: flex; }
+  .links {
+    display: flex;
+  }
 }
 
 .links a {
@@ -102,7 +108,9 @@
 }
 
 @media (min-width: 1024px) {
-  .hamburger { display: none; }
+  .hamburger {
+    display: none;
+  }
 }
 
 .hamburger span {
