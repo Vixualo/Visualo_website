@@ -45,7 +45,7 @@
   margin-right: -50vw;
   aspect-ratio: 16 / 9;
   /* Altura relativa (16:9) */
-  max-height: 100vh;
+  max-height: 90vh;
   /* Para que no sea ridículamente alto en pantallas muy grandes */
   overflow: hidden;
   /* border-radius: var(--radius-lg); */

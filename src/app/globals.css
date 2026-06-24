@@ -14,15 +14,15 @@
 
   /* Colors — Text */
   --color-text-primary: #ffffff;
-  --color-text-secondary: #6B6B6B;
+  --color-text-secondary: #ffffff;
   --color-text-on-dark: #FFFFFF;
-  --color-text-muted-dark: #9B9B9B;
+  --color-text-muted-dark: #ffffff;
 
   /* Colors — Accents & Borders */
-  --color-accent: #0A0A0A;
+  --color-accent: #ffffff;
   --color-border: #E8E8E8;
   --color-tag-bg: #EDEDED;
-  --color-tag-text: #0A0A0A;
+  --color-tag-text: #ffffff;
   --color-link-hover: #555555;
 
   /* Typography — Scale (base 16px) */
