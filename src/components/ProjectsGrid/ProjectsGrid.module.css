@@ -1,15 +1,31 @@
+/* ─── Pinterest-style Masonry Grid ─── */
+
 .section {
   padding-block: var(--space-2);
 }
 
 .grid {
-  display: grid;
-  gap: var(--space-4);
-  grid-template-columns: 1fr;
+  columns: 1;
+  column-gap: var(--space-3);
 }
 
-@media (min-width: 640px) {
+@media (min-width: 560px) {
   .grid {
-    grid-template-columns: repeat(2, 1fr);
+    columns: 2;
+    column-gap: var(--space-3);
   }
 }
+
+@media (min-width: 900px) {
+  .grid {
+    columns: 3;
+    column-gap: var(--space-3);
+  }
+}
+
+/* @media (min-width: 1200px) {
+  .grid {
+    columns: 4;
+    column-gap: var(--space-4);
+  }
+} */
