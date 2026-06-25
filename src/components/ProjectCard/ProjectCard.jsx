@@ -28,6 +28,7 @@ export default function ProjectCard({ id, title, category, video, alt, size = 'd
             playsInline
             aria-label={alt}
             className={styles.video}
+            preload='metadata'
           />
         ) : (
           <div className={styles.placeholder}>

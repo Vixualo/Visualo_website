@@ -30,11 +30,12 @@ export default function Hero() {
       <div className={styles.videoWrapper}>
         <video
           className={styles.video}
-          src="/images/Reel_principal.mp4"
+          src="https://res.cloudinary.com/aerhzjuo/video/upload/q_auto,f_auto/v1782350633/Reel_principal_H.264_ckdaew.mp4"
           autoPlay
           loop
           muted
           playsInline
+          preload="metadata"
         />
       </div>
     </section>
