@@ -18,13 +18,10 @@ export default async function ProjectPage({ params }) {
       <Navbar />
       <main className={styles.container}>
         <section className={styles.hero}>
-          {project.video && (
-            <video
-              src={project.video}
-              autoPlay
-              loop
-              muted
-              playsInline
+          {project.image && (
+            <img
+              src={project.image}
+              alt={project.alt || project.title}
               className={styles.videoBackground}
             />
           )}

@@ -6,14 +6,23 @@
 export const projects = [
   {
     id: 'rebrand-colectiva',
-    title: 'Rebrand Colectiva',
+    title: 'Palomín repelente de Aves',
     category: 'Branding · Identidad',
     video: 'https://res.cloudinary.com/aerhzjuo/video/upload/q_auto,f_auto/v1782352287/Palomin_pote_pattern_u2cqms.mp4',
+    image: '/images/avatar-1.png',
     alt: 'Rebrand completo para Colectiva — identidad visual editorial',
     size: 'hero',
-    description: 'Un rediseño integral de la identidad visual de Colectiva, enfocado en transmitir modernidad y sofisticación editorial. El proyecto incluyó la creación de un nuevo sistema de diseño, tipografía personalizada y una paleta de colores vibrante pero elegante que destaca en el mundo digital y físico.',
-    client: 'Colectiva Magazine',
-    year: '2024',
+    description: `MG Limpieza incorpora a su portafolio de soluciones Palomín, un eficaz repelente de palomas.
+    El objetivo es ejecutar un relanzamiento estratégico del producto, fundamentado en dos pilares clave:
+    Rediseño de Identidad Visual: Se creará un nuevo logo con el objetivo de lograr un alto impacto y reconocimiento
+    en el punto de venta.El diseño deberá comunicar de manera instantánea la función del producto,
+    garantizando su visibilidad en la góndola. Comunicación Centrada en el Diferenciador Clave: Se mantendrá el color
+    verde como eje cromático para reforzar nuestra principal propuesta de valor: Palomín es una solución segura y no tóxica.
+    Este atributo será el foco de toda nuestra estrategia de comunicación para posicionar la marca como una alternativa efectiva
+    y responsable. El plan culminará con el lanzamiento escalonado del producto en los distintos canales de venta, apalancado por
+    su nueva y potente identidad.`,
+    client: 'MG Limpieza',
+    year: '2025',
     services: ['Estrategia de Marca', 'Diseño de Identidad', 'Dirección de Arte', 'Diseño Editorial']
   },
   {
