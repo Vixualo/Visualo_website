@@ -38,7 +38,22 @@ export default async function ProjectPage({ params }) {
               ← Volver al inicio
             </Link>
             <h2>Sobre el proyecto</h2>
-            <p className={styles.description}>{project.description}</p>
+            <p className={styles.description}>{project.description}</p><br></br>
+            <p className={styles.copy}>{project.copy}</p><br></br>
+            <p className={styles.copy2}>{project.copy2}</p><br></br>
+            {['detailImage', 'detailImage2', 'detailImage3', 'detailImage4']
+              .map((key) => project[key])
+              .filter(Boolean)
+              .map((src, idx) => (
+                <div key={idx} className={styles.detailImageWrapper}>
+                  <img
+                    src={src}
+                    alt={project.alt || project.title}
+                    className={styles.detailImage}
+                  />
+                </div>
+              ))}
+
           </div>
 
           <aside className={styles.metaSection}>

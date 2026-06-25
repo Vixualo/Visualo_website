@@ -9,7 +9,7 @@ export const projects = [
     title: 'Palomín repelente de Aves',
     category: 'Branding · Identidad',
     video: 'https://res.cloudinary.com/aerhzjuo/video/upload/q_auto,f_auto/v1782352287/Palomin_pote_pattern_u2cqms.mp4',
-    image: '/images/avatar-1.png',
+    image: '/images/palomin_header.webp',
     alt: 'Rebrand completo para Colectiva — identidad visual editorial',
     size: 'hero',
     description: `MG Limpieza incorpora a su portafolio de soluciones Palomín, un eficaz repelente de palomas.
@@ -21,9 +21,10 @@ export const projects = [
     Este atributo será el foco de toda nuestra estrategia de comunicación para posicionar la marca como una alternativa efectiva
     y responsable. El plan culminará con el lanzamiento escalonado del producto en los distintos canales de venta, apalancado por
     su nueva y potente identidad.`,
+    detailImage: '/images/palomin_01.webp',
     client: 'MG Limpieza',
     year: '2025',
-    services: ['Estrategia de Marca', 'Diseño de Identidad', 'Dirección de Arte', 'Diseño Editorial']
+    services: ['Diseño de Identidad']
   },
   {
     id: 'sistema-visual-urbano',
@@ -39,15 +40,21 @@ export const projects = [
   },
   {
     id: 'campana-lanza',
-    title: 'Campaña Lanza',
-    category: 'Motion Graphics',
+    title: 'Mall Ecommerce',
+    category: 'Branding · UI · Motion Graphics',
     video: 'https://res.cloudinary.com/aerhzjuo/video/upload/q_auto,f_auto/v1782352502/Mall-logo-design_dnjflq.mp4',
-    alt: 'Campaña de motion graphics para lanzamiento de producto',
+    alt: 'Brandig y UI',
     size: 'default',
-    description: 'Campaña audiovisual completa para el lanzamiento global de Lanza. A través de piezas animadas de alto impacto, comunicamos la innovación del producto, adaptando el formato para múltiples plataformas digitales.',
-    client: 'Lanza Tech',
+    description: `Mall es una aplicación web dedicada al comercio de indumentaria sumado al concepto de red social, ya que los usuarios pueden seguirse, compartir sus compras, subir reels de productos etc. La aplicación muestra productos de indumentaria de diversos comercios. Los productos que se presentan están adaptados a las preferencias y filtros del usuario. Estos perfiles podrán ser cargados y modificados según las necesidades individuales o del grupo familiar.
+    `,
+    copy: `Objetivo: Ser el e-commerce de indumentaria multimarca de referencia con fuerte influencia de los usuarios en compartir contenido relacionado a lo que venden y compran.`,
+    copy2: `Target: Apasionados de la moda de todas las edades que disfrutan coleccionando y usando prendas, sin importar su ubicación.`,
+    detailImage: '/images/user_mall.webp',
+    detailImage2: '/images/card_sorting_mall.webp',
+    detailImage3: '/images/sitemap_mall.webp',
+    client: 'Mall',
     year: '2024',
-    services: ['Animación 3D', 'Motion Graphics', 'Post-producción']
+    services: ['Diseño de Identidad', 'Motion Graphics']
   },
   {
     id: 'documental-norte',
