@@ -16,7 +16,7 @@ const dmMono = DM_Mono({
 });
 
 export const metadata = {
-  title: 'Visualo — Diseño Gráfico, Branding y Tecnología',
+  title: 'Visualo',
   description:
     'Visualo es un studio creativo especializado en diseño gráfico, branding, edición de video y motion graphics. Damos vida a marcas con historias y experiencias a través del diseño y la tecnología.',
   keywords: [

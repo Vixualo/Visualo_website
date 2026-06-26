@@ -129,3 +129,18 @@
 .backButton:hover {
   color: var(--color-text-primary);
 }
+
+.detailImageWrapper {
+  margin-top: var(--space-10);
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.detailImage {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
