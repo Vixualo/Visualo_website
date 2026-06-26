@@ -130,8 +130,23 @@
   color: var(--color-text-primary);
 }
 
+.detailBlock {
+  margin-top: var(--space-12);
+}
+
+.detailBlock:first-of-type {
+  margin-top: var(--space-8);
+}
+
+.detailTitle {
+  font-size: var(--text-xl);
+  font-weight: 500;
+  margin-bottom: var(--space-4);
+  color: var(--color-text-primary);
+  letter-spacing: var(--tracking-tight);
+}
+
 .detailImageWrapper {
-  margin-top: var(--space-10);
   width: 100%;
   border-radius: 12px;
   overflow: hidden;

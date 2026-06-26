@@ -41,16 +41,28 @@ export default async function ProjectPage({ params }) {
             <p className={styles.description}>{project.description}</p><br></br>
             <p className={styles.copy}>{project.copy}</p><br></br>
             <p className={styles.copy2}>{project.copy2}</p><br></br>
-            {['detailImage', 'detailImage2', 'detailImage3', 'detailImage4']
-              .map((key) => project[key])
-              .filter(Boolean)
-              .map((src, idx) => (
-                <div key={idx} className={styles.detailImageWrapper}>
-                  <img
-                    src={src}
-                    alt={project.alt || project.title}
-                    className={styles.detailImage}
-                  />
+            {[
+              { img: project.detailImage, title: project.subTitle },
+              { img: project.detailImage2, title: project.subTitle2 },
+              { img: project.detailImage3, title: project.subTitle3 },
+              { img: project.detailImage4, title: project.subTitle4 },
+              { img: project.detailImage5, title: project.subTitle5 },
+              { img: project.detailImage6, title: project.subTitle6 },
+              { img: project.detailImage7, title: project.subTitle7 },
+              { img: project.detailImage8, title: project.subTitle8 },
+              { img: project.detailImage9, title: project.subTitle9 },
+            ]
+              .filter((item) => item.img)
+              .map((item, idx) => (
+                <div key={idx} className={styles.detailBlock}>
+                  {item.title && <h3 className={styles.detailTitle}>{item.title}</h3>}
+                  <div className={styles.detailImageWrapper}>
+                    <img
+                      src={item.img}
+                      alt={item.title || project.alt || project.title}
+                      className={styles.detailImage}
+                    />
+                  </div>
                 </div>
               ))}
 
