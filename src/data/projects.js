@@ -52,6 +52,7 @@ export const projects = [
     detailImage: '/images/user_mall.webp',
     detailImage2: '/images/card_sorting_mall.webp',
     detailImage3: '/images/sitemap_mall.webp',
+    detailImage4: '/images/user_flow.webp',
     client: 'Mall',
     year: '2024',
     services: ['Diseño de Identidad', 'Motion Graphics']

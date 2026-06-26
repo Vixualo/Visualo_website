@@ -93,8 +93,9 @@ export function generateStaticParams() {
   }));
 }
 
-export function generateMetadata({ params }) {
-  const project = projects.find((p) => p.id === params.id);
+export async function generateMetadata({ params }) {
+  const { id } = await params;
+  const project = projects.find((p) => p.id === id);
   if (!project) return { title: 'Proyecto no encontrado' };
 
   return {
