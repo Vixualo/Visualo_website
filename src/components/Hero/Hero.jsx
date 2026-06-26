@@ -22,10 +22,10 @@ export default function Hero() {
       className={`${styles.hero} container`}
       aria-labelledby="hero-heading"
     >
-      <h1 id="hero-heading" className={styles.tagline}>
+      {/* <h1 id="hero-heading" className={styles.tagline}>
         Damos vida a marcas con historias y experiencias a través
         del diseño y la tecnología.
-      </h1>
+      </h1> */}
 
       <div className={styles.videoWrapper}>
         <video
