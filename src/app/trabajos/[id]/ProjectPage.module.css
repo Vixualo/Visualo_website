@@ -99,7 +99,8 @@
   margin-bottom: var(--space-2);
 }
 
-.metaItem p, .metaItem ul {
+.metaItem p,
+.metaItem ul {
   font-size: var(--text-base);
   color: var(--color-text-primary);
 }
@@ -141,7 +142,7 @@
 .detailTitle {
   font-size: var(--text-xl);
   font-weight: 500;
-  margin-bottom: var(--space-4);
+  margin-bottom: var(--space-12);
   color: var(--color-text-primary);
   letter-spacing: var(--tracking-tight);
 }
