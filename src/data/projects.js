@@ -43,6 +43,7 @@ export const projects = [
     title: 'Mall Ecommerce',
     category: 'Branding · UI · Motion Graphics',
     video: 'https://res.cloudinary.com/aerhzjuo/video/upload/q_auto,f_auto/v1782352502/Mall-logo-design_dnjflq.mp4',
+    image: '/images/mall_header.webp',
     alt: 'Brandig y UI',
     size: 'default',
     description: `Mall es una aplicación web dedicada al comercio de indumentaria sumado al concepto de red social, ya que los usuarios pueden seguirse, compartir sus compras, subir reels de productos etc. La aplicación muestra productos de indumentaria de diversos comercios. Los productos que se presentan están adaptados a las preferencias y filtros del usuario. Estos perfiles podrán ser cargados y modificados según las necesidades individuales o del grupo familiar.
