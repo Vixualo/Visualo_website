@@ -43,7 +43,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es" className={`${dmSans.variable} ${dmMono.variable}`}>
+    <html lang="es" className={`${dmSans.variable} ${dmMono.variable}`} data-scroll-behavior="smooth">
       <body style={{ fontFamily: 'var(--font-sans), "Helvetica Neue", Arial, sans-serif' }}>
         {children}
       </body>

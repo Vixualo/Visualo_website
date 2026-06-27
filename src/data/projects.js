@@ -73,27 +73,39 @@ export const projects = [
     services: ['Diseño de Identidad', 'Motion Graphics']
   },
   {
-    id: 'documental-norte',
-    title: 'Documental Norte',
-    category: 'Edición · Post',
-    video: 'https://res.cloudinary.com/aerhzjuo/video/upload/q_auto,f_auto/v1782351899/BeGrowOne_bgkg6n.mp4',
-    alt: 'Edición y post-producción de documental independiente',
+    id: 'be-grow-one-web',
+    title: 'Landing Page para Be Grow One',
+    category: 'Design · Web',
+    video: 'https://res.cloudinary.com/aerhzjuo/video/upload/v1782597761/Reel_BeGrow_4-3_dfgzjx.mp4',
+    alt: 'Landing Page BeGrow One',
     size: 'default',
     description: 'Edición y post-producción de color de "Norte", un documental independiente que explora las tradiciones del norte geográfico. Trabajamos en estrecha colaboración con la dirección para lograr una estética cruda y emotiva.',
     client: 'Productora Independiente',
     year: '2023',
-    services: ['Edición de Video', 'Color Grading', 'Post-producción']
-  },
-  {
-    id: 'identidad-mara-atelier',
-    title: 'Identidad Mara Atelier',
-    category: 'Branding · Web',
-    video: 'https://res.cloudinary.com/aerhzjuo/video/upload/q_auto,f_auto/v1782352287/Palomin_pote_pattern_u2cqms.mp4',
-    alt: 'Proyecto de identidad visual para Mara Atelier',
-    size: 'wide',
-    description: 'Creación de la identidad visual de marca y la plataforma web de comercio electrónico para Mara Atelier. Nos enfocamos en una estética minimalista y lujosa, brindando una experiencia de usuario inmersiva.',
-    client: 'Mara Atelier',
-    year: '2024',
     services: ['Branding', 'Diseño UI/UX', 'Desarrollo Web']
   },
+  // {
+  //   id: 'identidad-mara-atelier',
+  //   title: 'Identidad Mara Atelier',
+  //   category: 'Branding · Web',
+  //   video: 'https://res.cloudinary.com/aerhzjuo/video/upload/q_auto,f_auto/v1782352287/Palomin_pote_pattern_u2cqms.mp4',
+  //   alt: 'Proyecto de identidad visual para Mara Atelier',
+  //   size: 'wide',
+  //   description: 'Creación de la identidad visual de marca y la plataforma web de comercio electrónico para Mara Atelier. Nos enfocamos en una estética minimalista y lujosa, brindando una experiencia de usuario inmersiva.',
+  //   client: 'Mara Atelier',
+  //   year: '2024',
+  //   services: ['Branding', 'Diseño UI/UX', 'Desarrollo Web']
+  // },
+  // {
+  //   id: 'be-grow-one-web',
+  //   title: 'Landing Page',
+  //   category: 'Design · Web',
+  //   video: 'https://res.cloudinary.com/aerhzjuo/video/upload/v1782597761/Reel_BeGrow_4-3_dfgzjx.mp4',
+  //   alt: 'Landing Page BeGrow One',
+  //   size: 'wide',
+  //   description: 'Creación de la identidad visual de marca y la plataforma web de comercio electrónico para Mara Atelier. Nos enfocamos en una estética minimalista y lujosa, brindando una experiencia de usuario inmersiva.',
+  //   client: 'Mara Atelier',
+  //   year: '2025',
+  //   services: ['Branding', 'Diseño UI/UX', 'Desarrollo Web']
+  // },
 ];
