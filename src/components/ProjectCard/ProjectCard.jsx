@@ -1,3 +1,6 @@
+'use client';
+
+import { useState } from 'react';
 import Link from 'next/link';
 import styles from './ProjectCard.module.css';
 
@@ -9,6 +12,7 @@ const SIZE_CLASSES = {
 };
 
 export default function ProjectCard({ id, title, category, video, alt, size = 'default', delay = 0 }) {
+  const [isVideoLoaded, setIsVideoLoaded] = useState(false);
   const sizeClass = SIZE_CLASSES[size] || SIZE_CLASSES.default;
   const delayClass = delay > 0 ? `reveal--delay-${delay}` : '';
 
@@ -20,16 +24,24 @@ export default function ProjectCard({ id, title, category, video, alt, size = 'd
     >
       <div className={styles.mediaWrapper}>
         {video ? (
-          <video
-            src={video}
-            autoPlay
-            loop
-            muted
-            playsInline
-            aria-label={alt}
-            className={styles.video}
-            preload='metadata'
-          />
+          <>
+            {!isVideoLoaded && (
+              <div className={styles.loaderContainer}>
+                <div className={styles.loader}></div>
+              </div>
+            )}
+            <video
+              src={video}
+              autoPlay
+              loop
+              muted
+              playsInline
+              aria-label={alt}
+              className={`${styles.video} ${isVideoLoaded ? styles.loaded : ''}`}
+              preload='metadata'
+              onLoadedData={() => setIsVideoLoaded(true)}
+            />
+          </>
         ) : (
           <div className={styles.placeholder}>
             <svg

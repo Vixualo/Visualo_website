@@ -79,7 +79,7 @@ export const projects = [
     video: 'https://res.cloudinary.com/aerhzjuo/video/upload/v1782597761/Reel_BeGrow_4-3_dfgzjx.mp4',
     alt: 'Landing Page BeGrow One',
     size: 'default',
-    description: 'Edición y post-producción de color de "Norte", un documental independiente que explora las tradiciones del norte geográfico. Trabajamos en estrecha colaboración con la dirección para lograr una estética cruda y emotiva.',
+    description: `El desafío consistía en transformar una oferta de servicios compleja en una experiencia digital clara, convincente y orientada a la conversión. Diseñé y desarrollé una landing page capaz de comunicar la propuesta de valor en pocos segundos, estructurando el contenido mediante una narrativa que acompaña al usuario desde la identificación del problema hasta la decisión de contacto. El proyecto priorizó la jerarquía visual, la credibilidad de la marca, la optimización para dispositivos móviles y un flujo de navegación enfocado en maximizar la generación de leads.`,
     client: 'Productora Independiente',
     year: '2023',
     services: ['Branding', 'Diseño UI/UX', 'Desarrollo Web']
