@@ -91,6 +91,18 @@ export default async function ProjectPage({ params }) {
                 </ul>
               </div>
             )}
+            {project.website && (
+              <div className={styles.metaItem}>
+                <h3>Sitio Web</h3>
+                <ul>
+                  <li>
+                    <a href={project.website} target="_blank" rel="noopener noreferrer">
+                      {project.website.replace(/^https?:\/\//, '').replace(/\/$/, '')}
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            )}
           </aside>
         </section>
       </main>
