@@ -80,6 +80,7 @@ export const projects = [
     alt: 'Landing Page BeGrow One',
     size: 'default',
     description: `El desafío consistía en transformar una oferta de servicios compleja en una experiencia digital clara, convincente y orientada a la conversión. Diseñé y desarrollé una landing page capaz de comunicar la propuesta de valor en pocos segundos, estructurando el contenido mediante una narrativa que acompaña al usuario desde la identificación del problema hasta la decisión de contacto. El proyecto priorizó la jerarquía visual, la credibilidad de la marca, la optimización para dispositivos móviles y un flujo de navegación enfocado en maximizar la generación de leads.`,
+    detailImage: '/images/screens_begrowone.webp',
     client: 'Productora Independiente',
     year: '2023',
     services: ['Branding', 'Diseño UI/UX', 'Desarrollo Web']
