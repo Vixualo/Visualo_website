@@ -14,14 +14,14 @@ export const team = [
     id: 'valentina-cruz',
     name: 'Valentina Cruz',
     role: 'Motion Designer',
-    avatar: '/images/avatar-2.png',
+    avatar: '/images/avatar-1.png',
     linkedin: 'https://linkedin.com',
   },
   {
     id: 'mateo-rios',
     name: 'Mateo Ríos',
     role: 'Editor & Post-Producción',
-    avatar: null,
+    avatar: '/images/avatar-1.png',
     linkedin: 'https://linkedin.com',
   },
 ];
