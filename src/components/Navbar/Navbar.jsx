@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
+import Image from 'next/image';
 import { useScrollSpy } from '@/hooks/useScrollSpy';
 import styles from './Navbar.module.css';
 
@@ -66,7 +67,7 @@ export default function Navbar() {
           aria-label="Visualo — Volver al inicio"
           onClick={(e) => handleSmoothScroll(e, '#hero')}
         >
-          Visualo
+          <Image src="/images/af_logo.svg" alt="Logo" width={100} height={75} />
         </a>
 
         {/* Desktop Navigation */}

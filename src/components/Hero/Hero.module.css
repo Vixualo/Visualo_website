@@ -1,5 +1,5 @@
 .hero {
-  padding-top: 0;
+  padding-top: 95px;
   padding-bottom: var(--space-10);
   opacity: 0;
   transform: translateY(20px);
