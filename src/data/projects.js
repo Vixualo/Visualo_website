@@ -28,15 +28,16 @@ export const projects = [
   },
   {
     id: 'sistema-visual-urbano',
-    title: 'Sistema Visual Urbano',
-    category: 'Motion · Editorial',
+    title: 'Diseño de marca para Be Grow One',
+    category: 'Branding · Diseño de Identidad',
     video: 'https://res.cloudinary.com/aerhzjuo/video/upload/q_auto,f_auto/v1782351899/BeGrowOne_bgkg6n.mp4',
-    alt: 'Sistema visual y señalética para espacio urbano',
+    alt: 'Diseño de marca para Be Grow One',
     size: 'tall',
-    description: 'Desarrollo de un sistema de señalética dinámica y visuales en movimiento para un espacio urbano de alto tránsito. Se priorizó la legibilidad y la interacción fluida, combinando técnicas de motion graphics con principios de diseño editorial clásico.',
-    client: 'MetroCity',
-    year: '2023',
-    services: ['Motion Graphics', 'Wayfinding', 'Diseño Editorial']
+    description: 'La identidad visual de Be Grow One fue concebida para representar la evolución natural de una compañía con amplia trayectoria en soluciones de negocio hacia un nuevo escenario impulsado por inteligencia artificial, automatización y transformación digital.',
+    website: 'https://www.begrow.one/',
+    client: 'ITPS ONE',
+    year: '2025',
+    services: ['Branding']
   },
   {
     id: 'campana-lanza',
@@ -81,7 +82,7 @@ export const projects = [
     alt: 'Landing Page BeGrow One',
     size: 'default',
     description: `El desafío consistía en transformar una oferta de servicios compleja en una experiencia digital clara, convincente y orientada a la conversión. Diseñé y desarrollé una landing page capaz de comunicar la propuesta de valor en pocos segundos, estructurando el contenido mediante una narrativa que acompaña al usuario desde la identificación del problema hasta la decisión de contacto. El proyecto priorizó la jerarquía visual, la credibilidad de la marca, la optimización para dispositivos móviles y un flujo de navegación enfocado en maximizar la generación de leads.`,
-    website: 'https://begrow.one/',
+    website: 'https://www.begrow.one/',
     detailImage: 'https://res.cloudinary.com/aerhzjuo/image/upload/v1782667591/screens_begrowone_ta5otb.webp',
     detailImage2: 'https://res.cloudinary.com/aerhzjuo/image/upload/v1782667661/imagen_2_faxkn5.webp',
     client: 'ITPS ONE',
