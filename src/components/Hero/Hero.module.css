@@ -1,5 +1,5 @@
 .hero {
-  padding-top: calc(var(--space-32) + var(--space-16));
+  padding-top: 0;
   padding-bottom: var(--space-10);
   opacity: 0;
   transform: translateY(20px);
@@ -12,6 +12,7 @@
 }
 
 .tagline {
+  margin-top: var(--space-16);
   font-size: var(--text-3xl);
   font-weight: 400;
   line-height: var(--leading-tight);
@@ -36,7 +37,7 @@
 
 /* Contenedor del video a todo el ancho del viewport */
 .videoWrapper {
-  margin-top: var(--space-12);
+  margin-top: 0;
   width: 100vw;
   position: relative;
   left: 50%;

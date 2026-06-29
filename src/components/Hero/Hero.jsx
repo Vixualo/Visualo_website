@@ -23,11 +23,6 @@ export default function Hero() {
       className={`${styles.hero} container`}
       aria-labelledby="hero-heading"
     >
-      {/* <h1 id="hero-heading" className={styles.tagline}>
-        Damos vida a marcas con historias y experiencias a través
-        del diseño y la tecnología.
-      </h1> */}
-
       <div className={styles.videoWrapper}>
         {!isVideoLoaded && (
           <div className={styles.loaderContainer}>
@@ -45,6 +40,11 @@ export default function Hero() {
           onLoadedData={() => setIsVideoLoaded(true)}
         />
       </div>
+
+      {/* <h1 id="hero-heading" className={styles.tagline}>
+        Damos vida a marcas con historias y experiencias a través
+        del diseño y la tecnología.
+      </h1> */}
     </section>
   );
 }
